@@ -1,6 +1,6 @@
 # Bowling Game Kata
 
-## Requisitos
+## Introducción
 
 Una partida de bolos (*Bowling Game*) consta de 10 turnos (*Frames*).
 
@@ -34,3 +34,10 @@ En el turno 10 se puede lanzar un tercer lanzamiento si se produce un pleno o un
 | 9     | 10           | 117        |
 | 10    | 2, 8, 6      | 133        |
 
+## Requisitos
+
+Escribir una clase `Game` que tenga dos métodos:
+
+* `roll(pins : int)` que se invoca cada vez que se derriban bolos. Recibe como parámetro el número de bolos
+  derribados en el lanzamiento.
+* `score() : int` que devuelve la puntuación total de la partida.
