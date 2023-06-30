@@ -2,10 +2,13 @@ package es.ricoperez.bowlinggamekata;
 
 public class Game {
 
+    private int score = 0;
+
     public int score() {
-        return 0;
+        return score;
     }
 
     public void roll(int pins) {
+        score += pins;
     }
 }
